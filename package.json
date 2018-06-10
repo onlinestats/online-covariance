@@ -1,0 +1,24 @@
+{
+  "name": "online-covariance",
+  "version": "1.0.0",
+  "description": "Online algorithm for calculating covariance",
+  "main": "index.js",
+  "dependencies": {
+    "faucet": "^0.0.1",
+    "tape": "^4.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tape test.js | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onlinestats/online-covariance.git"
+  },
+  "author": "Anton Zemlyansky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onlinestats/online-covariance/issues"
+  },
+  "homepage": "https://github.com/onlinestats/online-covariance#readme"
+}
