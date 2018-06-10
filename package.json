@@ -1,13 +1,13 @@
 {
   "name": "online-covariance",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Online algorithm for calculating covariance",
   "main": "index.js",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "faucet": "^0.0.1",
     "tape": "^4.9.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "tape test.js | faucet"
   },
